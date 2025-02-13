@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD887232D09B91E0041598D /* ShopItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887222D09B91E0041598D /* ShopItApp.swift */; };
+		CDD887252D09B91E0041598D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887242D09B91E0041598D /* ContentView.swift */; };
+		CDD887272D09B91F0041598D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD887262D09B91F0041598D /* Assets.xcassets */; };
+		CDD8872A2D09B91F0041598D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD887292D09B91F0041598D /* Preview Assets.xcassets */; };
+		CDD887342D09B91F0041598D /* ShopItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887332D09B91F0041598D /* ShopItTests.swift */; };
+		CDD8873E2D09B91F0041598D /* ShopItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8873D2D09B91F0041598D /* ShopItUITests.swift */; };
+		CDD887402D09B91F0041598D /* ShopItUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8873F2D09B91F0041598D /* ShopItUITestsLaunchTests.swift */; };
+		CDD8874E2D09BA050041598D /* AllItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8874D2D09BA050041598D /* AllItemsView.swift */; };
+		CDD887502D09BA760041598D /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8874F2D09BA760041598D /* CategoryView.swift */; };
+		CDD887522D09BA890041598D /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887512D09BA890041598D /* FavoriteView.swift */; };
+		CDD887552D09BB180041598D /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887542D09BB180041598D /* ItemView.swift */; };
+		CDD887572D09BB370041598D /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887562D09BB370041598D /* ItemCard.swift */; };
+		CDD887592D09BB550041598D /* FilteredItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887582D09BB550041598D /* FilteredItemsView.swift */; };
+		CDD8875B2D09BB710041598D /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8875A2D09BB710041598D /* CategoryCard.swift */; };
+		CDD8875D2D09BB890041598D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8875C2D09BB890041598D /* FavoriteButton.swift */; };
+		CDD8875F2D09BB9F0041598D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8875E2D09BB9F0041598D /* ItemRow.swift */; };
+		CDD887622D09BBDF0041598D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887612D09BBDF0041598D /* Item.swift */; };
+		CDD887642D09BBFD0041598D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887632D09BBFD0041598D /* Category.swift */; };
+		CDD887672D09C5AF0041598D /* FavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD887662D09C5AF0041598D /* FavoriteManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD887302D09B91F0041598D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD887172D09B91E0041598D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8871E2D09B91E0041598D;
+			remoteInfo = ShopIt;
+		};
+		CDD8873A2D09B91F0041598D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD887172D09B91E0041598D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8871E2D09B91E0041598D;
+			remoteInfo = ShopIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDD8871F2D09B91E0041598D /* ShopIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD887222D09B91E0041598D /* ShopItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItApp.swift; sourceTree = "<group>"; };
+		CDD887242D09B91E0041598D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDD887262D09B91F0041598D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD887292D09B91F0041598D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDD8872F2D09B91F0041598D /* ShopItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD887332D09B91F0041598D /* ShopItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItTests.swift; sourceTree = "<group>"; };
+		CDD887392D09B91F0041598D /* ShopItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD8873D2D09B91F0041598D /* ShopItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItUITests.swift; sourceTree = "<group>"; };
+		CDD8873F2D09B91F0041598D /* ShopItUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDD8874D2D09BA050041598D /* AllItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllItemsView.swift; sourceTree = "<group>"; };
+		CDD8874F2D09BA760041598D /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CDD887512D09BA890041598D /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		CDD887542D09BB180041598D /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		CDD887562D09BB370041598D /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
+		CDD887582D09BB550041598D /* FilteredItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredItemsView.swift; sourceTree = "<group>"; };
+		CDD8875A2D09BB710041598D /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		CDD8875C2D09BB890041598D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		CDD8875E2D09BB9F0041598D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		CDD887612D09BBDF0041598D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CDD887632D09BBFD0041598D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CDD887662D09C5AF0041598D /* FavoriteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD8871C2D09B91E0041598D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8872C2D09B91F0041598D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD887362D09B91F0041598D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD887162D09B91E0041598D = {
+			isa = PBXGroup;
+			children = (
+				CDD887212D09B91E0041598D /* ShopIt */,
+				CDD887322D09B91F0041598D /* ShopItTests */,
+				CDD8873C2D09B91F0041598D /* ShopItUITests */,
+				CDD887202D09B91E0041598D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD887202D09B91E0041598D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8871F2D09B91E0041598D /* ShopIt.app */,
+				CDD8872F2D09B91F0041598D /* ShopItTests.xctest */,
+				CDD887392D09B91F0041598D /* ShopItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD887212D09B91E0041598D /* ShopIt */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887652D09C5850041598D /* New Group */,
+				CDD887602D09BBC50041598D /* Models */,
+				CDD887532D09BADE0041598D /* Components */,
+				CDD8874C2D09B9A00041598D /* Views */,
+				CDD887222D09B91E0041598D /* ShopItApp.swift */,
+				CDD887262D09B91F0041598D /* Assets.xcassets */,
+				CDD887282D09B91F0041598D /* Preview Content */,
+			);
+			path = ShopIt;
+			sourceTree = "<group>";
+		};
+		CDD887282D09B91F0041598D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887292D09B91F0041598D /* Preview Assets.xcassets */,
+				CDD887662D09C5AF0041598D /* FavoriteManager.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDD887322D09B91F0041598D /* ShopItTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887332D09B91F0041598D /* ShopItTests.swift */,
+			);
+			path = ShopItTests;
+			sourceTree = "<group>";
+		};
+		CDD8873C2D09B91F0041598D /* ShopItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8873D2D09B91F0041598D /* ShopItUITests.swift */,
+				CDD8873F2D09B91F0041598D /* ShopItUITestsLaunchTests.swift */,
+			);
+			path = ShopItUITests;
+			sourceTree = "<group>";
+		};
+		CDD8874C2D09B9A00041598D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887242D09B91E0041598D /* ContentView.swift */,
+				CDD8874D2D09BA050041598D /* AllItemsView.swift */,
+				CDD8874F2D09BA760041598D /* CategoryView.swift */,
+				CDD887512D09BA890041598D /* FavoriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDD887532D09BADE0041598D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887542D09BB180041598D /* ItemView.swift */,
+				CDD887562D09BB370041598D /* ItemCard.swift */,
+				CDD887582D09BB550041598D /* FilteredItemsView.swift */,
+				CDD8875A2D09BB710041598D /* CategoryCard.swift */,
+				CDD8875C2D09BB890041598D /* FavoriteButton.swift */,
+				CDD8875E2D09BB9F0041598D /* ItemRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CDD887602D09BBC50041598D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDD887612D09BBDF0041598D /* Item.swift */,
+				CDD887632D09BBFD0041598D /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDD887652D09C5850041598D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD8871E2D09B91E0041598D /* ShopIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD887432D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopIt" */;
+			buildPhases = (
+				CDD8871B2D09B91E0041598D /* Sources */,
+				CDD8871C2D09B91E0041598D /* Frameworks */,
+				CDD8871D2D09B91E0041598D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopIt;
+			productName = ShopIt;
+			productReference = CDD8871F2D09B91E0041598D /* ShopIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD8872E2D09B91F0041598D /* ShopItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD887462D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopItTests" */;
+			buildPhases = (
+				CDD8872B2D09B91F0041598D /* Sources */,
+				CDD8872C2D09B91F0041598D /* Frameworks */,
+				CDD8872D2D09B91F0041598D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD887312D09B91F0041598D /* PBXTargetDependency */,
+			);
+			name = ShopItTests;
+			productName = ShopItTests;
+			productReference = CDD8872F2D09B91F0041598D /* ShopItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDD887382D09B91F0041598D /* ShopItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD887492D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopItUITests" */;
+			buildPhases = (
+				CDD887352D09B91F0041598D /* Sources */,
+				CDD887362D09B91F0041598D /* Frameworks */,
+				CDD887372D09B91F0041598D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD8873B2D09B91F0041598D /* PBXTargetDependency */,
+			);
+			name = ShopItUITests;
+			productName = ShopItUITests;
+			productReference = CDD887392D09B91F0041598D /* ShopItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD887172D09B91E0041598D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CDD8871E2D09B91E0041598D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CDD8872E2D09B91F0041598D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CDD8871E2D09B91E0041598D;
+					};
+					CDD887382D09B91F0041598D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CDD8871E2D09B91E0041598D;
+					};
+				};
+			};
+			buildConfigurationList = CDD8871A2D09B91E0041598D /* Build configuration list for PBXProject "ShopIt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD887162D09B91E0041598D;
+			productRefGroup = CDD887202D09B91E0041598D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD8871E2D09B91E0041598D /* ShopIt */,
+				CDD8872E2D09B91F0041598D /* ShopItTests */,
+				CDD887382D09B91F0041598D /* ShopItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD8871D2D09B91E0041598D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8872A2D09B91F0041598D /* Preview Assets.xcassets in Resources */,
+				CDD887272D09B91F0041598D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8872D2D09B91F0041598D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD887372D09B91F0041598D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD8871B2D09B91E0041598D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD887252D09B91E0041598D /* ContentView.swift in Sources */,
+				CDD887672D09C5AF0041598D /* FavoriteManager.swift in Sources */,
+				CDD887552D09BB180041598D /* ItemView.swift in Sources */,
+				CDD8874E2D09BA050041598D /* AllItemsView.swift in Sources */,
+				CDD8875D2D09BB890041598D /* FavoriteButton.swift in Sources */,
+				CDD887622D09BBDF0041598D /* Item.swift in Sources */,
+				CDD8875B2D09BB710041598D /* CategoryCard.swift in Sources */,
+				CDD887572D09BB370041598D /* ItemCard.swift in Sources */,
+				CDD887502D09BA760041598D /* CategoryView.swift in Sources */,
+				CDD887522D09BA890041598D /* FavoriteView.swift in Sources */,
+				CDD887642D09BBFD0041598D /* Category.swift in Sources */,
+				CDD8875F2D09BB9F0041598D /* ItemRow.swift in Sources */,
+				CDD887592D09BB550041598D /* FilteredItemsView.swift in Sources */,
+				CDD887232D09B91E0041598D /* ShopItApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8872B2D09B91F0041598D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD887342D09B91F0041598D /* ShopItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD887352D09B91F0041598D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8873E2D09B91F0041598D /* ShopItUITests.swift in Sources */,
+				CDD887402D09B91F0041598D /* ShopItUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD887312D09B91F0041598D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD8871E2D09B91E0041598D /* ShopIt */;
+			targetProxy = CDD887302D09B91F0041598D /* PBXContainerItemProxy */;
+		};
+		CDD8873B2D09B91F0041598D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD8871E2D09B91E0041598D /* ShopIt */;
+			targetProxy = CDD8873A2D09B91F0041598D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDD887412D09B91F0041598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDD887422D09B91F0041598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD887442D09B91F0041598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDD887452D09B91F0041598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDD887472D09B91F0041598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopIt";
+			};
+			name = Debug;
+		};
+		CDD887482D09B91F0041598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopIt";
+			};
+			name = Release;
+		};
+		CDD8874A2D09B91F0041598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopIt;
+			};
+			name = Debug;
+		};
+		CDD8874B2D09B91F0041598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aubh.ShopItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD8871A2D09B91E0041598D /* Build configuration list for PBXProject "ShopIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD887412D09B91F0041598D /* Debug */,
+				CDD887422D09B91F0041598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD887432D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD887442D09B91F0041598D /* Debug */,
+				CDD887452D09B91F0041598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD887462D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD887472D09B91F0041598D /* Debug */,
+				CDD887482D09B91F0041598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD887492D09B91F0041598D /* Build configuration list for PBXNativeTarget "ShopItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8874A2D09B91F0041598D /* Debug */,
+				CDD8874B2D09B91F0041598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD887172D09B91E0041598D /* Project object */;
+}
